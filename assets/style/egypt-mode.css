@@ -24,3 +24,23 @@ main {
     height: 90%;
     margin: 3rem 0;
 }
+.input{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 2.5%;
+    top: 7.5%;
+    background-color: #ffffff4d;
+    border: none;
+    resize: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 150%;
+    
+    color: #000000;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
