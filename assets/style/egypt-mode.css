@@ -24,7 +24,7 @@ main {
     height: 90%;
     margin: 3rem 0;
 }
-.input{
+.input {
     position: absolute;
     width: 40%;
     height: 80%;
@@ -39,8 +39,21 @@ main {
     font-size: 2em;
     line-height: 150%;
     
-    color: #000000;
+    color: #805e00;
 
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+.input::placeholder {
+    color: #805e00;
+}
+
+.input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.input::-webkit-scrollbar {
+    display: none;
+}
+
