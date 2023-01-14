@@ -1,3 +1,6 @@
+*{
+    font-family: 'Special Elite', cursive, sans-serif;
+}
 body {
     background-image: url('img/background-light-high.jpg');
     background-repeat: no-repeat;
