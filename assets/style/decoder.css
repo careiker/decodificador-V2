@@ -78,8 +78,8 @@ main {
 }
 .criptar {
     appearance: none;
-    background-color: #ffa703;
-    border: 0.125em solid #1A1A1A;
+    background-color: #92e3a9;
+    border: 0.025em solid #1A1A1A;
     border-radius: 0.9375em;
     box-sizing: border-box;
     color: #3B3B3B;
@@ -115,7 +115,7 @@ main {
     .descriptar {
         appearance: none;
         background-color: #d4d4d4;
-        border: 0.125em solid #1A1A1A;
+        border: 0.025em solid #1A1A1A;
         border-radius: 0.9375em;
         box-sizing: border-box;
         color: #3B3B3B;
@@ -190,7 +190,7 @@ main {
         }
 
         .botao-copiar{
-            background-color: #ffbb00;
+            background-color: #273238;
             cursor: pointer;
             position: absolute;
             left: 93.5%;
