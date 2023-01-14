@@ -142,3 +142,41 @@ main {
         box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
         transform: translateY(-2px);
         }
+
+        .output{
+            position: absolute;
+            width: 40%;
+            height: 82.5%;
+            left: 55%;
+            top: 7.5%; 
+            resize: none;
+            border: none;
+            border-radius: 32px;
+
+            background-color: #ffffff71;
+            background-image: url("img/no-found.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 150%;
+            color: #495057;
+        
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        
+        .output:focus{
+            box-shadow: 0 0 0 0;
+            outline: 0;
+        }
+        
+        .output::-webkit-scrollbar{
+            display: none;
+        }
+        
+        .output::selection {
+            background: transparent;
+            color: inherit;
+        }
