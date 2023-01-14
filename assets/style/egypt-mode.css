@@ -30,8 +30,10 @@ main {
     height: 80%;
     left: 2.5%;
     top: 7.5%;
+    padding: 1%;
     background-color: #ffffff4d;
     border: none;
+    border-radius: 2em;
     resize: none;
 
     font-style: normal;
@@ -45,6 +47,7 @@ main {
     scrollbar-width: none;
 }
 .input::placeholder {
+    text-align: center;
     color: #805e00;
 }
 
@@ -65,9 +68,9 @@ main {
     gap: 50%;
 
     position: absolute;
-    width: 42.5rem;
+    width: 43rem;
     height: 4.2rem;
-    left: 45%;
+    left: 46%;
     top: 40%;
 }
 .criptar {
@@ -148,10 +151,11 @@ main {
             width: 40%;
             height: 82.5%;
             left: 55%;
-            top: 7.5%; 
+            top: 7.5%;
+             padding: 0.5%;
             resize: none;
             border: none;
-            border-radius: 32px;
+            border-radius: 2em;
 
             background-color: #ffffff71;
             background-image: url("img/no-found.png");
