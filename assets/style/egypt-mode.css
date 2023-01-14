@@ -30,7 +30,7 @@ main {
     height: 80%;
     left: 2.5%;
     top: 7.5%;
-    padding: 1%;
+    padding: 2.5% 1%;
     background-color: #ffffff4d;
     border: none;
     border-radius: 2em;
@@ -41,7 +41,7 @@ main {
     font-size: 2em;
     line-height: 150%;
     
-    color: #805e00;
+    color: #5a4200;
 
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -152,7 +152,7 @@ main {
             height: 82.5%;
             left: 55%;
             top: 7.5%;
-            padding: 0.5%;
+            padding: 2% 1%;
             resize: none;
             border: none;
             border-radius: 2em;
@@ -186,12 +186,11 @@ main {
         }
 
         .botao-copiar{
-            background-color: transparent;
+            background-color: #ffbb00;
             cursor: pointer;
             position: absolute;
-            width: 3%;
-            height: 3%;
-            left: 92.5%;
-            top: 9%;
+            left: 93.5%;
+            top: 8%;
             border: none;
+            border-radius: 2rem;
         }
