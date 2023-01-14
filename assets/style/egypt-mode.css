@@ -152,7 +152,7 @@ main {
             height: 82.5%;
             left: 55%;
             top: 7.5%;
-             padding: 0.5%;
+            padding: 0.5%;
             resize: none;
             border: none;
             border-radius: 2em;
@@ -186,12 +186,12 @@ main {
         }
 
         .botao-copiar{
+            background-color: transparent;
             cursor: pointer;
             position: absolute;
-            width: 5%;
-            height: 67px;
-            left: 1200px;
-            top: 791px;
-            border: 1px solid #0A3871;
-            border-radius: 24px;
+            width: 3%;
+            height: 3%;
+            left: 92.5%;
+            top: 9%;
+            border: none;
         }
