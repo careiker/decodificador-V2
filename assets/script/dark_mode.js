@@ -6,8 +6,8 @@ function darkMode() {
     var checkBox = document.getElementById('check');
 
         if(checkBox.checked == true){
-            document.body.style.backgroundColor = "#0b090d";
+            document.body.style.backgroundColor = "#1A1A1A";
         }else{
-            document.body.style.backgroundColor = "#fff";
+            document.body.style.backgroundColor = "#c2c2c2";
         }
 }
