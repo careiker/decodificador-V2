@@ -1,7 +1,7 @@
 /* The switch - the box around the slider */
 .switch {
     left: 95%;
-    font-size: 17px;
+    top: 3%;
     position: absolute;
     display: inline-block;
     width: 3.5em;
