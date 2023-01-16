@@ -9,13 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style/reset.css">
     <link rel="stylesheet" href="assets/style/decoder.css">
+    <link rel="stylesheet" href="assets/style/dark_mode.css">
     <title>Decodificador</title>
 </head>
 <body>
     <header>
-        <a href="#">
-            <!--<img src="assets/style/img/logo - cian.png" alt="logo do site">-->
+        <a href="">
         </a>
+        <label class="switch">
+            <input type="checkbox" id="check" onclick="darkMode()">
+            <span class="slider"></span>
+        </label>
     </header>
     <main>
         <section>
@@ -38,5 +42,6 @@
     </main>
 
     <script src="assets/script/script.js"></script>
+    <script src="assets/script/dark_mode.js"></script>
 </body>
 </html>
