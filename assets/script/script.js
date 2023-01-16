@@ -23,7 +23,7 @@ const mensagem = document.querySelector(".output");
 
   /*FUNÇÃO PARA CRIPTOGRAFAR*/
   function encriptar(stringEncriptada) {
-    let matriz = [["e", "ecma"], ["i", "net"], ["a", "app"], ["o", "devops"], ["u", "linux"], ["b", "bit"], ["c", "++"], ["d", "dom"], ["f", "flutter"], ["g", "bug"], ["h", "php"], ["j", "oracle"], ["k", "stack"], ["l", "laravel"], ["m", "mozilla"], ["n", "next"], ["p", "postgresql"], ["q", "query"], ["r", "react"], ["s", "sass"], ["t", "thumbnail"], ["v", "vue"], ["w", "wordwideweb"], ["x", "excel"], ["y", "typescript"], ["z", "i=0"], ["ç", "undefined"]];
+    let matriz = [["a", "app"], ["c", "c#"], ["e", "ecma"], ["h", "html5"], ["i", "net"], ["o", "devops"], ["u", "linux"]];
     stringEncriptada = stringEncriptada.toLowerCase();
 
     for(let i = 0; i < matriz.length; i++) {
@@ -53,7 +53,7 @@ const mensagem = document.querySelector(".output");
  
   /*FUNÇÃO PARA DESCRIPTOGRAFAR*/
   function descriptar(stringDescriptada) {
-    let matriz = [["ecma", "e"], ["net", "i"], ["app", "a"], ["devops", "o"], ["linux", "u"] ["bit", "b"], ["++", "c"], ["dom", "d"], ["flutter", "f"], ["bug", "g"], ["php", "h"], ["oracle", "j"], ["stack", "k"], ["laravel", "l"], ["mozilla", "m"], ["next", "n"], ["postgresql", "p"], ["query", "q"], ["react", "r"], ["sass", "s"], ["thumbnail", "t"], ["vue", "v"], ["wordwideweb", "w"], ["excel", "x"], ["typescript", "y"], ["i=0", "z"], ["undefined", "ç"]];
+    let matriz = [["app", "a"], ["c#", "c"], ["ecma", "e"], ["html5", "h"], ["net", "i"], ["devops", "o"], ["linux", "u"]];
     stringDescriptada = stringDescriptada.toLowerCase();
 
     for(let i = 0; i < matriz.length; i++) {
