@@ -34,7 +34,7 @@ main {
     left: 2.5%;
     top: 7.5%;
     padding: 2.5% 1%;
-    background-color: #ffffff4d;
+    background-color: #ffffff71;
     border: none;
     border-radius: 1.5em;
     resize: none;
@@ -79,10 +79,10 @@ main {
 .criptar {
     appearance: none;
     background-color: #92e3a9;
-    border: 0.025em solid #1A1A1A;
+    border: none;
     border-radius: 0.9375em;
     box-sizing: border-box;
-    color: #3B3B3B;
+    color: #1A1A1A;
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
@@ -107,18 +107,18 @@ main {
     }
     
     .criptar:hover {
-    color: #fff;
-    background-color: #1A1A1A;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    color: #1A1A1A;
+    background-color: #61ff8e;
+    box-shadow: #00000040 0 8px 15px;
     transform: translateY(-2px);
     }
     .descriptar {
         appearance: none;
         background-color: #d4d4d4;
-        border: 0.025em solid #1A1A1A;
+        border: 0.025em solid #afafaf;
         border-radius: 0.9375em;
         box-sizing: border-box;
-        color: #3B3B3B;
+        color: #1A1A1A;
         cursor: pointer;
         display: inline-block;
         font-size: 1em;
@@ -143,8 +143,8 @@ main {
         }
         
         .descriptar:hover {
-        color: #fff;
-        background-color: #1A1A1A;
+        color: #1A1A1A;
+        background-color: #eeeeee;
         box-shadow: #00000040 0 8px 15px;
         transform: translateY(-2px);
         }
@@ -198,6 +198,10 @@ main {
             border: none;
             background-color: #1A1A1A;
             border-radius: 50%;
+        }
+        .botao-copiar:hover {
+            box-shadow: #00000040 0 8px 15px;
+            transform: translateY(-2px);
         }
 
         /*CIAN #92e3a9*/
