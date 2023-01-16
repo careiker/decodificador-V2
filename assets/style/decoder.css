@@ -190,11 +190,12 @@ main {
         }
 
         .botao-copiar{
-            background-color: #273238;
             cursor: pointer;
             position: absolute;
-            left: 93.5%;
-            top: 8%;
+            left: 92%;
+            top: 85%;
+            padding: 0.5%;
             border: none;
-            border-radius: 2rem;
+            background-color: #1A1A1A;
+            border-radius: 50%;
         }
